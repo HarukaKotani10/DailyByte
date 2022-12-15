@@ -1,0 +1,13 @@
+C:\Projects\DailyByte\DailyByte\DailyByte\bin\Debug\netcoreapp3.1\DailyByte.exe
+C:\Projects\DailyByte\DailyByte\DailyByte\bin\Debug\netcoreapp3.1\DailyByte.deps.json
+C:\Projects\DailyByte\DailyByte\DailyByte\bin\Debug\netcoreapp3.1\DailyByte.runtimeconfig.json
+C:\Projects\DailyByte\DailyByte\DailyByte\bin\Debug\netcoreapp3.1\DailyByte.runtimeconfig.dev.json
+C:\Projects\DailyByte\DailyByte\DailyByte\bin\Debug\netcoreapp3.1\DailyByte.dll
+C:\Projects\DailyByte\DailyByte\DailyByte\bin\Debug\netcoreapp3.1\DailyByte.pdb
+C:\Projects\DailyByte\DailyByte\DailyByte\obj\Debug\netcoreapp3.1\DailyByte.csprojAssemblyReference.cache
+C:\Projects\DailyByte\DailyByte\DailyByte\obj\Debug\netcoreapp3.1\DailyByte.AssemblyInfoInputs.cache
+C:\Projects\DailyByte\DailyByte\DailyByte\obj\Debug\netcoreapp3.1\DailyByte.AssemblyInfo.cs
+C:\Projects\DailyByte\DailyByte\DailyByte\obj\Debug\netcoreapp3.1\DailyByte.csproj.CoreCompileInputs.cache
+C:\Projects\DailyByte\DailyByte\DailyByte\obj\Debug\netcoreapp3.1\DailyByte.dll
+C:\Projects\DailyByte\DailyByte\DailyByte\obj\Debug\netcoreapp3.1\DailyByte.pdb
+C:\Projects\DailyByte\DailyByte\DailyByte\obj\Debug\netcoreapp3.1\DailyByte.genruntimeconfig.cache
