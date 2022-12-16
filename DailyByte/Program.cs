@@ -6,7 +6,7 @@ namespace DailyByte
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(ReverseString.GetReverseString("Cat"));
+            Console.WriteLine(ValidPalindrome.IsValidPalindrome("A man, -a plan, a canal: Panama."));
         }
     }
 }
