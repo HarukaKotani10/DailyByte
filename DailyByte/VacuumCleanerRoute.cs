@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace DailyByte
@@ -45,5 +46,12 @@ namespace DailyByte
 
             return left == right && up == down;
         }
+
+        public static bool IsOriginalPositionLinq(string input)
+        {
+            return input.Count(f => f == 'T') == input.Count(f => f == 'B') && 
+                input.Count(f => f == 'L') == input.Count(f => f == 'R');
+        }
+        
     }
 }
