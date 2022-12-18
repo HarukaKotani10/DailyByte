@@ -6,7 +6,7 @@ namespace DailyByte
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(CorrectCapitalization.IsValidCapitalization("compUter"));
+            Console.WriteLine(AddBinary.GetBinarySum("100", "1"));
         }
     }
 }
