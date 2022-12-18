@@ -15,7 +15,6 @@ namespace DailyByteTest
             //arrange
             //act
             string result = AddBinary.GetBinarySum(num1, num2);
-            Console.WriteLine(result);
 
             // assert
             Assert.Equal(expected, result);

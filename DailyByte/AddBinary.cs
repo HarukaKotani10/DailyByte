@@ -17,8 +17,6 @@ namespace DailyByte
         //"11" + "1", return "100"
         //"1" + "0", return  "1"
 
-        // 100
-
         public static string GetBinarySum(string  num1, string num2)
         {
             return Convert.ToString(Convert.ToInt32(num1, 2) + Convert.ToInt32(num2, 2), 2);
