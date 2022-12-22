@@ -31,5 +31,15 @@ namespace DailyByte
 
             return list.ToArray();
         }
+
+        public static string[] GetUncommonWordsOneLine(string sentence1, string sentence2)
+        {
+            return sentence1.Split().Union(sentence2.Split()).Except(sentence1.Split().Intersect(sentence2.Split())).ToArray();
+        }
+
+        public static string[] GetUncommonWordsConcat(string sentence1, string sentence2)
+        {
+            return sentence1.Split(' ').Except(sentence2.Split(' ')).Concat(sentence2.Split(' ').Except(sentence1.Split(' '))).ToArray();
+        }
     }
 }
