@@ -19,13 +19,12 @@ namespace DailyByte
 
         public static int GetFirstUniqueCharacterIndex(string input)
         {
-            int result = -1;
 
             for(int i=0; i < input.Length; i++)
                 if (input.Count(c => c == input[i]) == 1)
                    return i;
 
-            return result;
+            return -1;
             
         }
     }
