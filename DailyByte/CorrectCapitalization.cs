@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DailyByte
 {
-    public class CorrectCapitalization
+    public class CorreVactCapitalization
     {
         //This question is asked by Google. 
         //Given a string, return whether or not it uses capitalization correctly. 

@@ -14,7 +14,7 @@ namespace DailyByteTest
         {
             //arrange
             //act
-            bool result = CorrectCapitalization.IsValidCapitalization(input);
+            bool result = CorreVactCapitalization.IsValidCapitalization(input);
 
             // assert
             Assert.Equal(expected, result);
