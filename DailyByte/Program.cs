@@ -6,7 +6,12 @@ namespace DailyByte
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(AddBinary.GetBinarySum("100", "1"));
+            var result = MergeLinkedList.GetMargedLinkedList();
+
+            foreach(var i in result)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
