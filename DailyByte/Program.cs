@@ -6,7 +6,7 @@ namespace DailyByte
     {
         static void Main(string[] args)
         {
-            var result = RemoveValue.GetRemovedLinkedList();
+            var result = RemoveNthToLastNode.GetRemovedLinkedListOneLine();
 
             foreach(var i in result)
             {

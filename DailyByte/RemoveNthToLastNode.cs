@@ -16,10 +16,12 @@ namespace DailyByte
         //1->2->3->null, n = 2, return 1->3->null
         //1->2->3->null, n = 3, return 2->3->null
 
+        public static LinkedList<int> myLink = new LinkedList<int>(new int[] { 1, 2, 3 });
+        public static int n = 3;
+
         public static LinkedList<int> GetRemovedLinkedList()
         {
-            var myLink = new LinkedList<int>(new int[] { 1, 2, 3 });
-            int n = 3;
+  
             int count = 0;
             var pointer = myLink.First;
 
@@ -36,6 +38,12 @@ namespace DailyByte
             }
 
             return myLink;   
+        }
+
+        public static LinkedList<int> GetRemovedLinkedListOneLine()
+        {
+            myLink.Remove(myLink.Count() - n +1);
+            return myLink;
         }
     }
 }
