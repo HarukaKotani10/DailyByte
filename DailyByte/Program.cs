@@ -6,12 +6,13 @@ namespace DailyByte
     {
         static void Main(string[] args)
         {
-            var result = RemoveNthToLastNode.GetRemovedLinkedListOneLine();
+            int result = FindMiddleElement.GetMiddleElement();
+            Console.WriteLine(result);
 
-            foreach(var i in result)
+/*            foreach(var i in result)
             {
                 Console.WriteLine(i);
-            }
+            }*/
         }
     }
 }
