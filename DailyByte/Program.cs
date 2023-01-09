@@ -6,7 +6,7 @@ namespace DailyByte
     {
         static void Main(string[] args)
         {
-            int result = FindMiddleElement.GetMiddleElement();
+            bool result = ContainsCycle.IsContainsCycle();
             Console.WriteLine(result);
 
 /*            foreach(var i in result)
