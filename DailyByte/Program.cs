@@ -6,8 +6,8 @@ namespace DailyByte
     {
         static void Main(string[] args)
         {
-            bool result = ContainsCycle.IsContainsCycle();
-            Console.WriteLine(result);
+            ListNode<int> result = ReturnStartOfCycle.GetStartOfCycle();
+            Console.WriteLine(result.value);
 
 /*            foreach(var i in result)
             {
