@@ -6,13 +6,14 @@ namespace DailyByte
     {
         static void Main(string[] args)
         {
-            ListNode<int> result = ReturnStartOfCycle.GetStartOfCycle();
-            Console.WriteLine(result.value);
+            ListNode<int> result = ReverseList.GetReverseList();
+           // Console.WriteLine(result.value);
 
-/*            foreach(var i in result)
+            while(result != null)
             {
-                Console.WriteLine(i);
-            }*/
+                Console.WriteLine(result.value);
+                result = result.next;
+            }
         }
     }
 }
