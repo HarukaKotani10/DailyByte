@@ -18,18 +18,9 @@ namespace DailyByte
         //1->2->3->4->5->2 (5 points back to 2), return a reference to the node containing 2
         //1->9->3->7->7 (7 points to itself), return a reference to the node containing 7
         
-        public static ListNode<int> GetStartOfCycle()
+        public static ListNode<int> GetStartOfCycle(ListNode<int> head)
         {
             var list = new List<ListNode<int>>();
-            var node1 = new ListNode<int>(1);
-            var node2 = new ListNode<int>(2);
-            var node3 = new ListNode<int>(3);
-
-            node1.next = node2;
-            node2.next = node3;
-            node3.next = node1;
-
-            var head = node1;
           
             while (head != null)
             {

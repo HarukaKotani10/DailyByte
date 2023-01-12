@@ -20,25 +20,15 @@ namespace DailyByte
 
       //  public static LinkedList<int> myLink = new LinkedList<int>(new int[] { 1, 2, 3, 1});
 
-        public static bool IsContainsCycle()
+        public static bool IsContainsCycle(ListNode<int> head)
         {
             var list = new List<ListNode<int>>();
-            var node1 = new ListNode<int>(1);
-            var node2 = new ListNode<int>(2);
-            var node3 = new ListNode<int>(3);
 
-            node1.next = node2;
-            node2.next = node3;
-            node3.next = node1;
-
-            var head = node1;
             if (head == null)
                 return false;
 
             while (head.next != null)
             {
-
-
                 if (list.Contains(head))
                     return true;
 
