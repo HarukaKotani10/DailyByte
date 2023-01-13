@@ -16,6 +16,28 @@ namespace DailyByte
         //1->2->3->null, n = 2, return 1->3->null
         //1->2->3->null, n = 3, return 2->3->null
 
+        public static ListNode<int> RemoveNthFromEnd(ListNode<int> head, int n)
+        {
+            var start = new ListNode<int>(0);
+            var slow = start;
+            var fast = start;
+            start.next = head;
+
+            for (int i = 0; i <= n; i++)
+            {
+                fast = fast.next;
+            }
+
+            while (fast != null)
+            {
+                slow = slow.next;
+                fast = fast.next;
+            }
+
+            slow.next = slow.next.next;
+            return start.next;
+        }
+
         public static LinkedList<int> myLink = new LinkedList<int>(new int[] { 1, 2, 3 });
         public static int n = 3;
 

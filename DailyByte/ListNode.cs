@@ -11,10 +11,6 @@ namespace DailyByte
         public ListNode<T> next { get; set; }
         public T value { get; set; }
 
-        public ListNode()
-        {
- 
-        }
         public ListNode(T value)
         {
             this.value = value;

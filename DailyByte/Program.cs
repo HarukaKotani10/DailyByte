@@ -13,7 +13,7 @@ namespace DailyByte
             head.next = node2;
             node2.next = node3;
 
-            ListNode<int> result = ReverseList.GetReverseList(head);
+            ListNode<int> result = RemoveNthToLastNode.RemoveNthFromEnd(head, 2);
            // Console.WriteLine(result.value);
 
             while(result != null)
