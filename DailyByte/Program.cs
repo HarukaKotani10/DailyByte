@@ -18,7 +18,7 @@ namespace DailyByte
 
             while(result != null)
             {
-                Console.WriteLine(result.value);
+                Console.WriteLine(result.value);    
                 result = result.next;
             }
         }
