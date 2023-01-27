@@ -6,6 +6,9 @@ namespace DailyByte
     {
         static void Main(string[] args)
         {
+
+            CallCounter.GetNumberOfCalls();
+
             var head = new ListNode<int>(1);
             var node2 = new ListNode<int>(2);
             var node3 = new ListNode<int>(3);
@@ -18,7 +21,7 @@ namespace DailyByte
 
             while(result != null)
             {
-                Console.WriteLine(result.value);    
+              //  Console.WriteLine(result.value);    
                 result = result.next;
             }
         }
