@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace DailyByte
 {
@@ -6,7 +7,19 @@ namespace DailyByte
     {
         static void Main(string[] args)
         {
-            MovingAverage m = new MovingAverage(3);
+            QueueStack<int> stack = new QueueStack<int>();
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+            Console.WriteLine(stack.Peek()); // Output: 3
+            Console.WriteLine(stack.Pop()); // Output: 3
+            Console.WriteLine(stack.Peek()); // Output: 2
+            Console.WriteLine(stack.IsEmpty()); // Output: False
+            stack.Pop();
+            stack.Pop();
+            Console.WriteLine(stack.IsEmpty()); // Output: True
+
+            /*MovingAverage m = new MovingAverage(3);
             Console.WriteLine(m.next(3)); //m.next(3) returns 3 because(3 / 1) = 3
             Console.WriteLine(m.next(5)); //m.next(5) returns 4 because(3 + 5) / 2 = 4
             Console.WriteLine(m.next(7)); //m.next(7) = returns 5 because(3 + 5 + 7) / 3 = 5
@@ -28,7 +41,7 @@ namespace DailyByte
             {
               //  Console.WriteLine(result.value);    
                 result = result.next;
-            }
+            }*/
         }
     }
 }
